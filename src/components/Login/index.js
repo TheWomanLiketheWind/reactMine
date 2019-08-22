@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.less';
-import 'font-awesome/less/font-awesome.less';
+//import 'font-awesome/less/font-awesome.less';
 import 'react-fontawesome';
 
 class Login extends Component {
