@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import login from './image/login.png'
 import logo from './image/logo_2.png'
 import './App.css';
 // import 'font-awesome/less/font-awesome.less';
@@ -10,7 +9,7 @@ function App() {
     <div className="Login">
       <img src={logo} className="logo_Image"></img>
       <div className="Login_Content">
-        <div clascsName="flex Login_header">
+        <div className="flex Login_header">
           <h3 className="Login_header_tip">欢迎登录</h3>智橙移动优化后台
         </div>
 
