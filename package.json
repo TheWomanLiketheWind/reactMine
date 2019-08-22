@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "react-name",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,5 +28,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "less": "^3.10.2",
+    "loader": "^2.1.1"
   }
 }
