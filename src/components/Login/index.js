@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './index.less';
+import 'font-awesome/less/font-awesome.less';
+import 'react-fontawesome';
 
 class Login extends Component {
   constructor(props) {
@@ -17,7 +19,7 @@ class Login extends Component {
 
           <div className="Login_Center">
             <div className="flex Login_Center_input">
-              {/* <i className="fa fa-camera-retro"></i> */}
+              <i className="fa fa-camera-retro"></i>
               <input type="text" placeholder="请输入用户名" className="inputName" />
             </div>
             <div className="flex Login_Center_input">
