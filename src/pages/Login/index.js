@@ -33,8 +33,9 @@ class Login extends Component {
     }
     window._.$api.login(params).then(res => {
       if (res.data.state) {
-        window.localStorage.token = res.data.data.token
 
+        // window.localStorage.token = res.data.data.token
+        this.props.history.history('../Home/index.js')
       }
     })
   }
@@ -43,10 +44,11 @@ class Login extends Component {
     let state = this.state
     return (
       <div className="Login">
-        <img src={require('../../image/logo_2.png')} className="logo_Image" alt="logo"></img>
+        {/* <img src={require('../../image/logo_2.png')} className="logo_Image" alt="logo"></img> */}
         <div className="Login_Content">
           <div className="flex Login_header">
-            <h3 className="Login_header_tip">欢迎登录</h3>智橙移动优化后台
+            <h3 className="Login_header_tip">欢迎登录</h3>
+            {/* 智橙移动优化后台 */}
           </div>
 
           <div className="Login_Center">

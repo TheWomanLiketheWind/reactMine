@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.less';
+import { Button } from 'element-react';
 
 class Home extends Component {
   constructor(props) {
