@@ -11,7 +11,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>这是首页</div>
+      <div>请登录</div>
     )
   }
 }

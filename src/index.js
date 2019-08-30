@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './api/overall.js'
-// import 'antd/dist/antd.less';
+import 'element-theme-default';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
